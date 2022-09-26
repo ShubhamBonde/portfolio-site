@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+  background-color: #00265b;
+  color: white;
+  -webkit-box-shadow: 0 5 10 rgba(2, 2, 2, 0.247);
+          box-shadow: 0 5 10 rgba(2, 2, 2, 0.247);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#root .nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  user-zoom: none;
+}
+
+#root .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40%;
+  height: 100%;
+}
+
+#root .nav ul li {
+  height: 100%;
+}
+
+#root .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#root .nav ul li:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
